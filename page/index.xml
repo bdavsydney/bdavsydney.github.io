@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on BDAV Lab @ USYD</title>
-        <link>https://bdavsydney.github.io/website/page/</link>
+        <link>https://bdavsydney.github.io/bdav-website/page/</link>
         <description>Recent content in Pages on BDAV Lab @ USYD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <copyright>BDAV, The University of Sydney</copyright><atom:link href="https://bdavsydney.github.io/website/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>BDAV, The University of Sydney</copyright><atom:link href="https://bdavsydney.github.io/bdav-website/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>About</title>
-        <link>https://bdavsydney.github.io/website/about/</link>
+        <link>https://bdavsydney.github.io/bdav-website/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://bdavsydney.github.io/website/about/</guid>
+        <guid>https://bdavsydney.github.io/bdav-website/about/</guid>
         <description>&lt;p&gt;TBC&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>People</title>
-        <link>https://bdavsydney.github.io/website/people/</link>
+        <link>https://bdavsydney.github.io/bdav-website/people/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://bdavsydney.github.io/website/people/</guid>
+        <guid>https://bdavsydney.github.io/bdav-website/people/</guid>
         <description></description>
         </item>
         <item>
         <title>Projects</title>
-        <link>https://bdavsydney.github.io/website/projects/</link>
+        <link>https://bdavsydney.github.io/bdav-website/projects/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://bdavsydney.github.io/website/projects/</guid>
+        <guid>https://bdavsydney.github.io/bdav-website/projects/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://bdavsydney.github.io/website/search/</link>
+        <link>https://bdavsydney.github.io/bdav-website/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://bdavsydney.github.io/website/search/</guid>
+        <guid>https://bdavsydney.github.io/bdav-website/search/</guid>
         <description></description>
         </item>
         
