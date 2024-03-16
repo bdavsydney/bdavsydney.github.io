@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tags on BDAV Lab @ USYD</title>
+        <link>https://bdavsydney.github.io/website/tags/</link>
+        <description>Recent content in Tags on BDAV Lab @ USYD</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>BDAV, The University of Sydney</copyright>
+        <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bdavsydney.github.io/website/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cardiology</title>
+        <link>https://bdavsydney.github.io/website/tags/cardiology/</link>
+        <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/cardiology/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Heart Rate</title>
+        <link>https://bdavsydney.github.io/website/tags/heart-rate/</link>
+        <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/heart-rate/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>tbc</title>
+        <link>https://bdavsydney.github.io/website/tags/tbc/</link>
+        <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/tbc/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>css</title>
+        <link>https://bdavsydney.github.io/website/tags/css/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/css/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>html</title>
+        <link>https://bdavsydney.github.io/website/tags/html/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/html/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>markdown</title>
+        <link>https://bdavsydney.github.io/website/tags/markdown/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/markdown/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>themes</title>
+        <link>https://bdavsydney.github.io/website/tags/themes/</link>
+        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/themes/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>shortcodes</title>
+        <link>https://bdavsydney.github.io/website/tags/shortcodes/</link>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/tags/shortcodes/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

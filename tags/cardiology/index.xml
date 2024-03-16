@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Cardiology on BDAV Lab @ USYD</title>
+        <link>https://bdavsydney.github.io/website/tags/cardiology/</link>
+        <description>Recent content in Cardiology on BDAV Lab @ USYD</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>BDAV, The University of Sydney</copyright>
+        <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bdavsydney.github.io/website/tags/cardiology/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Facial AI</title>
+        <link>https://bdavsydney.github.io/website/projects/facial-ai/</link>
+        <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://bdavsydney.github.io/website/projects/facial-ai/</guid>
+        <description>&lt;img src="https://bdavsydney.github.io/website/projects/facial-ai/telehealth.png" alt="Featured image of post Facial AI" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/bdavsydney/slf-rpm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TBC&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
