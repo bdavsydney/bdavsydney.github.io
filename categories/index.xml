@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on BDAV Lab @ USYD</title>
-        <link>https://bdavsydney.github.io/bdav-website/categories/</link>
+        <link>https://bdavsydney.github.io/categories/</link>
         <description>Recent content in Categories on BDAV Lab @ USYD</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>BDAV, The University of Sydney</copyright>
-        <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bdavsydney.github.io/bdav-website/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://bdavsydney.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Video Analysis</title>
-        <link>https://bdavsydney.github.io/bdav-website/categories/video-analysis/</link>
+        <link>https://bdavsydney.github.io/categories/video-analysis/</link>
         <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://bdavsydney.github.io/bdav-website/categories/video-analysis/</guid>
+        <guid>https://bdavsydney.github.io/categories/video-analysis/</guid>
         <description></description>
         </item>
         <item>
         <title>Visualisation</title>
-        <link>https://bdavsydney.github.io/bdav-website/categories/visualisation/</link>
+        <link>https://bdavsydney.github.io/categories/visualisation/</link>
         <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://bdavsydney.github.io/bdav-website/categories/visualisation/</guid>
+        <guid>https://bdavsydney.github.io/categories/visualisation/</guid>
         <description></description>
         </item>
         <item>
         <title>Template</title>
-        <link>https://bdavsydney.github.io/bdav-website/categories/template/</link>
+        <link>https://bdavsydney.github.io/categories/template/</link>
         <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://bdavsydney.github.io/bdav-website/categories/template/</guid>
-        <description>&lt;img src="https://bdavsydney.github.io/bdav-website/categories/template/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Template" /&gt;</description>
+        <guid>https://bdavsydney.github.io/categories/template/</guid>
+        <description>&lt;img src="https://bdavsydney.github.io/categories/template/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Template" /&gt;</description>
         </item>
         
     </channel>
