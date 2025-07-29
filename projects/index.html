@@ -1,370 +1,153 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
-<title>Projects</title>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BDAV Lab – Submissions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { padding-top: 60px; }
+    .hero{
+      background-image:url('/img/University-of-Sydney-USyd-logo.jpg');
+      background-size:cover;background-position:center;
+      min-height:300px;padding:100px 0;position:relative;
+      color:#fff;text-align:center;
+    }
+    .hero::before{
+      content:"";position:absolute;inset:0;
+      background:rgba(0,0,0,.5);z-index:1;
+    }
+    .hero .container{position:relative;z-index:2;}
+    .card-img-top.project-figure {
+      object-fit: contain;
+      background: #ececec;
+      height: 180px;
+      padding: 10px;
+    }
+    .card-title {
+      min-height: 3em;
+    }
+    .project-link {
+      margin-top: 10px;
+    }
+    .project-author {
+      font-size: 0.98em;
+      color: #888;
+      margin-top: 0.5em;
+    }
+    .project-year {
+      color: #666;
+      font-size: 0.98em;
+      margin-top: 0.2em;
+      margin-bottom: 0.6em;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
 
-<link rel='canonical' href='https://bdavsydney.github.io/projects/'>
-
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content='Projects'>
-<meta property='og:description' content=''>
-<meta property='og:url' content='https://bdavsydney.github.io/projects/'>
-<meta property='og:site_name' content='BDAV Lab @ USYD'>
-<meta property='og:type' content='article'><meta property='article:section' content='Page' />
-<meta name="twitter:title" content="Projects">
-<meta name="twitter:description" content="">
-    </head>
-    <body class="
-    article-page
-    ">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
-
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
-
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="https://bdavsydney.github.io/">BDAV Lab</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <header>
-        
-            
-            <figure class="site-avatar">
-                <a href="/">
-                
-                    
-                    
-                    
-                        
-                        <img src="/img/usyd_hu10758266968920378379.png" width="300"
-                            height="300" class="site-logo" loading="lazy" alt="Avatar">
-                    
-                
-                </a>
-                
-                    <span class="emoji">🍥</span>
-                
-            </figure>
-            
-        
-        
-        <div class="site-meta">
-            <h1 class="site-name"><a href="/">BDAV Lab @ USYD</a></h1>
-            <h2 class="site-description">Biomedical Data Analysis and Visualisation Lab at The University of Sydney</h2>
-        </div>
-    </header><ol class="menu-social">
-            
-                <li>
-                    <a 
-                        href='https://github.com/bdavsydney'
-                        target="_blank"
-                        title="GitHub"
-                        rel="me"
-                    >
-                        
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-</svg>
-
-
-
-                        
-                    </a>
-                </li>
-            
-        </ol><ol class="menu" id="main-menu">
-        
-        
-        
-        <li >
-            <a href='/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
-
-
-
-                
-                <span>Home</span>
-            </a>
-        </li>
-        
-        
-        <li  class='current' >
-            <a href='/projects/' >
-                
-                
-                
-                    <?xml version="1.0" ?><svg data-name="Layer 1" id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><title/><path d="M69.28,5H13.84V95H86.16V21.88ZM69,8.68,82.48,22.17H69ZM16.66,92.19V7.81H66.17V25H83.34v67.2Z"/><path d="M54.47,45A6.05,6.05,0,0,0,63,53.6h0A6.05,6.05,0,0,0,54.47,45ZM61,51.61A3.24,3.24,0,1,1,61,47,3.24,3.24,0,0,1,61,51.61Z"/><path d="M73.94,31.61c-7.4-.84-14.08.32-19.73,3.43a32.88,32.88,0,0,0-8.54,6.79H33.05a3,3,0,0,0-2.13.87L22.41,51a3,3,0,0,0,0,4.33l3.72,3.72a3.12,3.12,0,0,0,4.08.2,8.93,8.93,0,0,1,5.44-2.08c-.9,1.79-1.7,3.46-2.34,4.82l-.42.89,12.3,12.3.89-.42c1.4-.66,3.14-1.48,5-2.42a9.46,9.46,0,0,1-2.25,5.69,3,3,0,0,0,.2,4.08l3.54,3.54a3,3,0,0,0,4.31,0l8.51-8.51A3,3,0,0,0,66.24,75V62.4A32.86,32.86,0,0,0,73,53.86c3.11-5.68,4.27-12.32,3.43-19.74A2.83,2.83,0,0,0,73.94,31.61Zm-3.39,20.9a30.47,30.47,0,0,1-6.66,8.21l-.47.42V75a.24.24,0,0,1-.07.17l-8.5,8.5a.24.24,0,0,1-.33,0L51,80.15a.23.23,0,0,1,0-.31A13.06,13.06,0,0,0,53.84,70l-.15-2.16-1.91,1c-2.16,1.14-4.28,2.17-6,3l-9.51-9.51c.8-1.7,1.8-3.76,2.91-5.85l1-1.92L38,54.4c-.52,0-1,0-1.47,0a12.16,12.16,0,0,0-8.13,2.75.21.21,0,0,1-.31,0l-3.72-3.72a.23.23,0,0,1,0-.33l8.51-8.32a.23.23,0,0,1,.16-.07H46.92l.42-.47a30.49,30.49,0,0,1,8.22-6.67c5.15-2.82,11.26-3.87,18.07-3.1a0,0,0,0,1,0,0C74.43,41.27,73.39,47.35,70.56,52.52Z"/></svg>
-                
-                <span>Projects</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/people/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>People</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/about/' >
-                
-                
-                
-                    <?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="Layer 4" id="Layer_4"><path d="M32,64A32,32,0,1,1,64,32,32,32,0,0,1,32,64ZM32,2A30,30,0,1,0,62,32,30,30,0,0,0,32,2Z"/><rect height="6" width="2" x="31" y="12"/><rect height="30" width="2" x="31" y="22"/></g></svg>
-                
-                <span>About</span>
-            </a>
-        </li>
-        
-        <li class="menu-bottom-section">
-            <ol class="menu">
-
-                
-                    <li id="dark-mode-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <span>Dark Mode</span>
-                    </li>
-                
-            </ol>
-        </li>
-    </ol>
-</aside>
-
-    
-
-            <main class="main full-width">
-    <article class="main-article">
-    <header class="article-header">
-
-    <div class="article-details">
-    
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/projects/">Projects</a>
-        </h2>
-    
-        
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://bdavsydney.github.io/people/">People</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://bdavsydney.github.io/about/">About</a></li>
+      </ul>
     </div>
+  </div>
+</nav>
 
-    
-    
-    
-    
-
-    
-</div>
-
-</header>
-
-    <section class="article-content">
-    
-    
-    
+<!-- Hero banner -->
+<section class="hero">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Submissions</h1>
+    <p class="lead">Browse ongoing and past research projects from our group</p>
+  </div>
 </section>
 
+<!-- Projects grid -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 display-5">All Projects</h2>
+    <!-- Year Filter Dropdown -->
+    <div class="row mb-4">
+      <div class="col text-end">
+        <label for="yearFilter" class="form-label me-2">Filter by Year:</label>
+        <select id="yearFilter" class="form-select d-inline-block w-auto" style="min-width:120px;">
+          <option value="all">All Years</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <!-- Add more years as needed -->
+        </select>
+      </div>
+    </div>
+    <div class="row g-4">
 
-    <footer class="article-footer">
-    
-
-    
-    <section class="article-copyright">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
-</svg>
-
-
-
-        <span>Licensed under CC BY-NC-SA 4.0</span>
-    </section>
-    </footer>
-
-
-    
-</article>
-
-    
-
-    
-
-     
-    
-        
-    
-
-    <footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-            2022 - 
-        
-        2024 BDAV, The University of Sydney
-    </section>
-    
-    <section class="powerby">
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
-    </section>
-</footer>
-
-
-    
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    
-    <div class="pswp__bg"></div>
-
-    
-    <div class="pswp__scroll-wrap">
-
-        
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
+      <!-- Example project card for 2025 -->
+      <div class="col-sm-6 col-lg-4" data-year="2025">
+        <div class="card h-100 shadow-sm">
+          <img src="/Users/az/Desktop/untitled folder/bdavsydney.github.io/projects/shuchang-iccv.jpg" class="card-img-top project-figure" alt="Figure 1 placeholder">
+          <div class="card-body">
+            <h5 class="card-title mb-1"></b>Alleviating Textual Reliance in Medical Language-guided Segmentation via Prototype-driven Semantic Approximation</b>
+            <div class="project-author">Author: Shuchang Ye</div>
+            <div class="project-year"><b>Year:</b> 2025</div>
+            <a href="#" class="btn btn-primary project-link disabled" tabindex="-1" aria-disabled="true">Paper Link</a>
+          </div>
         </div>
+      </div>
 
-        
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                
-                
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
+      <!-- Example project card for 2024 -->
+      <div class="col-sm-6 col-lg-4" data-year="2024">
+        <div class="card h-100 shadow-sm">
+          <img src="/Users/az/Desktop/untitled folder/bdavsydney.github.io/projects/shuchang-miccai.jpg" class="card-img-top project-figure" alt="Figure 1 placeholder">
+          <div class="card-body">
+            <h5 class="card-title mb-1"></b>Enabling Text-Free Inference in Language-Guided Segmentation of Chest X-Rays via Self-guidance</b>
+            <div class="project-author">Author: Shuchang Ye </div>
+            <div class="project-year"><b>Year:</b> 2024</div>
+            <a href="https://arxiv.org/abs/1234.56789" class="btn btn-primary project-link" target="_blank" rel="noopener">Paper Link</a>
+          </div>
         </div>
+      </div>
+
+      <!-- Copy and fill more cards as needed. Make sure to set data-year="YYYY" and .project-year! -->
 
     </div>
+  </div>
+</section>
 
-</div><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
-                defer
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
-                defer
-                >
-            </script><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
-            ><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
-            >
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <p>&copy; 2022 - 2025 BDAV Lab. All rights reserved.</p>
+  </div>
+</footer>
 
-            </main>
-        </div>
-        <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
-
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
+document.getElementById('yearFilter').addEventListener('change', function() {
+  const selected = this.value;
+  document.querySelectorAll('.row.g-4 > [data-year]').forEach(function(card) {
+    if (selected === 'all' || card.getAttribute('data-year') === selected) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+});
 </script>
-
-    </body>
+</body>
 </html>
